@@ -1,2 +1,2 @@
-# OmegaRenovations.github.io
+# OmegaRenovations
 Omega Renovations- Official Website
