@@ -7,3 +7,11 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+.body{
+  background-attachment:fixed;
+}
+
+.navbar{
+  background:url('../img/transparent_navbar.png');
+}
