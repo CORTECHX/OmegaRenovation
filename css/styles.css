@@ -1,23 +1,33 @@
 
 body {
-  padding-top: 50px;
-}
-
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}
-
-.body{
+  padding-top: 60px;
   background-attachment:fixed;
   background-repeat:no-repeat;
 }
 
+/*seperate container for the logo*/
+.logo-div{
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/*container for breif description etc*/
+.preface{
+  margin-top: 0px;
+  text-align: center;
+}
+
+/*semi-transparent navbar*/
 .navbar{
-  background:url('../img/transparent_navbar.png');
+  background-color:rgba(0, 0, 0, 0.8);
+}
+
+/*color state for active navbar item*/
+.active-h{
+  background-color:#735303;
 }
 
 #logo{
-  width:90%;
-  height:50%;
+  width:580px;
+  height:300px;
 }
