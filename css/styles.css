@@ -1,4 +1,4 @@
-
+/*body styles - background positioning*/
 body {
   padding-top: 60px;
   -moz-background-size: cover;
@@ -31,7 +31,21 @@ body {
   background-color:#735303;
 }
 
+/*make the container extend to bottom of page*/
+.container{
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+
 #logo{
   width:580px;
   height:280px;
+}
+
+/*copyright banner styles*/
+.copyright{
+  text-align:center;
+  background-color:rgba(0, 0, 0, 0.5);
+  color:Wheat;
+  padding:3px;
 }
