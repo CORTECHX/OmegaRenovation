@@ -10,8 +10,14 @@ body {
 
 .body{
   background-attachment:fixed;
+  background-repeat:no-repeat;
 }
 
 .navbar{
   background:url('../img/transparent_navbar.png');
+}
+
+#logo{
+  width:90%;
+  height:50%;
 }
