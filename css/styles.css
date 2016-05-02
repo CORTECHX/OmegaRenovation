@@ -41,11 +41,3 @@ body {
   width:580px;
   height:280px;
 }
-
-/*copyright banner styles*/
-.copyright{
-  text-align:center;
-  background-color:rgba(0, 0, 0, 0.5);
-  color:Wheat;
-  padding:3px;
-}
