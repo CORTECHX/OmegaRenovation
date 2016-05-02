@@ -20,7 +20,7 @@ body {
   text-align: center;
 }
 
-/*container for breif description etc*/
+/*contains the arrow*/
 .preface{
   margin-top: 0px;
   text-align: center;
@@ -29,6 +29,10 @@ body {
 /*semi-transparent navbar*/
 .navbar{
   background-color:rgba(0, 0, 0, 0.8);
+}
+
+.navbar-brand{
+  font-family:organo;
 }
 
 /*color state for active navbar item*/
@@ -45,4 +49,21 @@ body {
 #logo{
   width:580px;
   height:280px;
+}
+
+/*introductory line*/
+#intro{
+  color:White;
+  font-family:organo;
+}
+
+/*about section*/
+.about{
+  padding-top:30px;
+  text-align:center;
+  color:White;
+}
+/*about section header*/
+.about h1{
+  color:#EA870C;
 }
