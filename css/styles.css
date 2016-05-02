@@ -48,4 +48,7 @@ body {
   background-color:rgba(0, 0, 0, 0.5);
   color:Wheat;
   padding:3px;
+  margin:0px;
+  width:95%;
+  position:absolute;
 }
