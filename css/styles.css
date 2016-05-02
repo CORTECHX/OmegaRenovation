@@ -57,12 +57,20 @@ body {
   font-family:organo;
 }
 
+/*scroll arrow*/
+#arrow {
+  margin-top: 4em;
+}
+
 /*about section*/
 .about{
-  padding-top:30px;
+  margin-top:15em;
   text-align:center;
   color:White;
+  background-color: black;
+  opacity: .8;
 }
+
 /*about section header*/
 .about h1{
   color:#EA870C;
