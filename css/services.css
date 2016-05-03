@@ -3,6 +3,11 @@
   src:url('../fonts/Organo.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: batik;
+  src:url('../fonts/batik.ttf') format('truetype');
+}
+
 /*body styles - background positioning*/
 body {
   padding-top: 60px;
@@ -57,4 +62,5 @@ body {
 /*name header of service*/
 .service-name{
   text-align:left;
+  font-family:batik;
 }
