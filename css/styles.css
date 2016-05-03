@@ -74,6 +74,7 @@ body {
   color:White;
   background-color: black;
   opacity: .8;
+  margin-bottom: 6em;
 }
 
 /*about section header*/
@@ -97,4 +98,26 @@ body {
 
 .about .lead a:hover {
   color: white;
+}
+
+footer {
+  background-color:rgba(0, 0, 0, 0.8);
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width:100%;
+  position: fixed;
+}
+
+footer p {
+  text-align: center;
+  font-family: organo;
+  font-size: 1.5em;
+  color: #666;
+  margin-left: 2em;
+}
+
+footer p span {
+  float: right;
+  padding-right: 1em;
 }
