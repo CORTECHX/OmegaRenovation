@@ -3,6 +3,11 @@
   src:url('../fonts/Organo.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: abeezee regular;
+  src:url('../fonts/ABeeZee-Regular.ttf') format('truetype');
+}
+
 /*body styles - background positioning*/
 body {
   padding-top: 60px;
@@ -74,4 +79,22 @@ body {
 /*about section header*/
 .about h1{
   color:#EA870C;
+  padding-top: 1em;
+}
+
+/*about section paragraph*/
+.about .lead {
+  font-family: abeezee regular;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 2em;
+}
+
+.about .lead a {
+  text-decoration: none;
+  color: orange;
+}
+
+.about .lead a:hover {
+  color: white;
 }
