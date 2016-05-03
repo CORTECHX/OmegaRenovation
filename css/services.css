@@ -1,0 +1,60 @@
+@font-face {
+  font-family: organo;
+  src:url('../fonts/Organo.ttf') format('truetype');
+}
+
+/*body styles - background positioning*/
+body {
+  padding-top: 60px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*semi-transparent navbar*/
+.navbar{
+  background-color:rgba(0, 0, 0, 0.8);
+}
+
+.navbar-brand{
+  font-family:organo;
+}
+
+/*color state for active navbar item*/
+.active-h{
+  background-color:#AF8809;
+}
+
+/*make the container extend to bottom of window*/
+.container{
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+
+/*container for introductory text*/
+.intro-div{
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/*title styling*/
+#intro{
+  color:White;
+  font-family:organo;
+}
+
+/*styling for each service listed*/
+.service{
+  background-color:rgba(0,0,0,0.6);
+  text-align:center;
+  color:Wheat;
+  padding-left:5px;
+}
+
+/*name header of service*/
+.service-name{
+  text-align:left;
+}
