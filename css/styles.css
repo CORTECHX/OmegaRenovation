@@ -121,3 +121,14 @@ footer p span {
   float: right;
   padding-right: 1em;
 }
+
+.img-container{
+  text-align:center;
+  color:White;
+  background-color: rgba(0,0,0,0.8);
+  margin-bottom: 6em;
+}
+
+.img-container img{
+  margin:10px;
+}
