@@ -132,3 +132,13 @@ footer p span {
 .img-container img{
   margin:10px;
 }
+
+.img-container h1{
+  color:#EA870C;
+  padding-top: 1em;
+}
+
+.img-container a{
+  color:#EA870C;
+  font-size:25px;
+}
