@@ -91,15 +91,18 @@ body {
   padding-bottom: 2em;
 }
 
+/*.about link to services*/
 .about .lead a {
   text-decoration: none;
   color: orange;
 }
 
+
 .about .lead a:hover {
   color: white;
 }
 
+/*footer styles*/
 footer {
   background-color:rgba(0, 0, 0, 0.8);
   left: 0px;
@@ -122,6 +125,7 @@ footer p span {
   padding-right: 1em;
 }
 
+/*images on page- size, onhover etc*/
 .img-container{
   text-align:center;
   color:White;
@@ -131,6 +135,22 @@ footer p span {
 
 .img-container img{
   margin:10px;
+  -ms-transition:1s ease-in-out;
+  -moz-transition:1s ease-in-out;
+  -webkit-transition:1s ease-in-out;
+  transition:1s ease-in-out;
+}
+
+/*img hover animation styles*/
+.img-container img:hover{
+  -moz-animation:flip 1s;
+  -ms-animation:flip 1s;
+  -webkit-animation:flip 1s;
+  animation:flip 1s;
+  -ms-transform:scale(1.4);
+  -moz-transform:scale(1.4);
+  -webkit-transform:scale(1.4);
+  transform:scale(1.4);
 }
 
 .img-container h1{
