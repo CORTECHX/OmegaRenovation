@@ -8,6 +8,15 @@
   src:url('../fonts/ABeeZee-Regular.ttf') format('truetype');
 }
 
+/*Attemp to add custom color to the scrollbar --WEBKIT ONLY--*/
+::-webkit-scrollbar {color:darkorange;background-color:darkorange;} 
+::-webkit-scrollbar-button {color:orange;background-color:orange;} 
+::-webkit-scrollbar-track {color:darkorange;background-color:darkorange;} 
+::-webkit-scrollbar-track-piece {color:darkorange;background-color:darkorange;} 
+::-webkit-scrollbar-thumb {color:orange;background-color:orange;}
+::scrollbar-thumb {color:orange;background-color:orange;}
+
+
 /*body styles - background positioning*/
 body {
   padding-top: 60px;
