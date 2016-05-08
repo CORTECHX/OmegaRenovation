@@ -8,28 +8,12 @@
   src:url('../fonts/batik.ttf') format('truetype');
 }
 
-/*Attemp to add custom color to the scrollbar --WEBKIT--*/
+/*Attemp to add custom color to the scrollbar --WEBKIT ONLY--*/
 ::-webkit-scrollbar {color:black;background-color:black;} 
 ::-webkit-scrollbar-button {color:#FF7500;background-color:#FF7500;} 
 ::-webkit-scrollbar-track {color:black;background-color:black;} 
 ::-webkit-scrollbar-track-piece {color:black;background-color:black;} 
 ::-webkit-scrollbar-thumb {color:orange;background-color:orange;}
-
-/*Attemp to add custom color to the scrollbar --MS--*/
-::-ms-scrollbar {color:black;background-color:black;} 
-::-ms-scrollbar-button {color:#FF7500;background-color:#FF7500;} 
-::-ms-scrollbar-track {color:black;background-color:black;} 
-::-ms-scrollbar-track-piece {color:black;background-color:black;} 
-::-ms-scrollbar-thumb {color:orange;background-color:orange;}
-::-ms-scrollbar-thumb {color:orange;background-color:orange;}
-
-/*Attemp to add custom color to the scrollbar --MOZ--*/
-::-moz-scrollbar {color:black;background-color:black;} 
-::-moz-scrollbar-button {color:#FF7500;background-color:#FF7500;} 
-::-moz-scrollbar-track {color:black;background-color:black;} 
-::-moz-scrollbar-track-piece {color:black;background-color:black;} 
-::-moz-scrollbar-thumb {color:orange;background-color:orange;}
-::-moz-scrollbar-thumb {color:orange;background-color:orange;}
 
 /*body styles - background positioning*/
 body {
