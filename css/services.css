@@ -8,6 +8,14 @@
   src:url('../fonts/batik.ttf') format('truetype');
 }
 
+/*Attemp to add custom color to the scrollbar --WEBKIT ONLY--*/
+::-webkit-scrollbar {color:black;background-color:black;} 
+::-webkit-scrollbar-button {color:#FF7500;background-color:#FF7500;} 
+::-webkit-scrollbar-track {color:black;background-color:black;} 
+::-webkit-scrollbar-track-piece {color:black;background-color:black;} 
+::-webkit-scrollbar-thumb {color:orange;background-color:orange;}
+::scrollbar-thumb {color:orange;background-color:orange;}
+
 /*body styles - background positioning*/
 body {
   padding-top: 60px;
