@@ -10,7 +10,7 @@
 
 /*Attemp to add custom color to the scrollbar --WEBKIT ONLY--*/
 ::-webkit-scrollbar {color:black;background-color:black;} 
-::-webkit-scrollbar-button {color:orange;background-color:orange;} 
+::-webkit-scrollbar-button {color:#FF7500;background-color:#FF7500;} 
 ::-webkit-scrollbar-track {color:black;background-color:black;} 
 ::-webkit-scrollbar-track-piece {color:black;background-color:black;} 
 ::-webkit-scrollbar-thumb {color:orange;background-color:orange;}
