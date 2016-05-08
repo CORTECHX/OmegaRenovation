@@ -9,10 +9,10 @@
 }
 
 /*Attemp to add custom color to the scrollbar --WEBKIT ONLY--*/
-::-webkit-scrollbar {color:darkorange;background-color:darkorange;} 
+::-webkit-scrollbar {color:black;background-color:black;} 
 ::-webkit-scrollbar-button {color:orange;background-color:orange;} 
-::-webkit-scrollbar-track {color:darkorange;background-color:darkorange;} 
-::-webkit-scrollbar-track-piece {color:darkorange;background-color:darkorange;} 
+::-webkit-scrollbar-track {color:black;background-color:black;} 
+::-webkit-scrollbar-track-piece {color:black;background-color:black;} 
 ::-webkit-scrollbar-thumb {color:orange;background-color:orange;}
 ::scrollbar-thumb {color:orange;background-color:orange;}
 
