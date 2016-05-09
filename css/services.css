@@ -58,6 +58,44 @@ body {
   font-family:organo;
 }
 
+/*delay animations on icons*/
+#icon1{
+  -webkit-animation-delay:1s;
+  -moz-animation-delay:1s;
+  -ms-animation-delay:1s;
+  animation-delay:1s;
+}
+#icon2{
+  -webkit-animation-delay:2s;
+  -moz-animation-delay:2s;
+  -ms-animation-delay:2s;
+  animation-delay:2s;
+}
+#icon3{
+  -webkit-animation-delay:3s;
+  -moz-animation-delay:3s;
+  -ms-animation-delay:3s;
+  animation-delay:3s;
+}
+#icon4{
+  -webkit-animation-delay:4s;
+  -moz-animation-delay:4s;
+  -ms-animation-delay:4s;
+  animation-delay:4s;
+}
+#icon5{
+  -webkit-animation-delay:5s;
+  -moz-animation-delay:5s;
+  -ms-animation-delay:5s;
+  animation-delay:5s;
+}
+#icon6{
+  -webkit-animation-delay:6s;
+  -moz-animation-delay:6s;
+  -ms-animation-delay:6s;
+  animation-delay:6s;
+}
+
 /*styling for each service listed*/
 .service{
   background-color:rgba(0,0,0,0.6);
