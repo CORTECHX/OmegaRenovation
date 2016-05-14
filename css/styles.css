@@ -8,6 +8,11 @@
   src:url('../fonts/ABeeZee-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: batik;
+  src:url('../fonts/batik.ttf') format('truetype');
+}
+
 /*custom color to the scrollbar --WEBKIT--*/
 ::-webkit-scrollbar {color:black;background-color:black;}
 ::-webkit-scrollbar-button {color:#FF7500;background-color:#FF7500;}
