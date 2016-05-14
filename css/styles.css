@@ -154,6 +154,7 @@ footer r{
 }
 
 /*images on page- size, onhover etc*/
+
 .img-container{
   text-align:center;
   color:White;
@@ -207,13 +208,24 @@ footer r{
   color:Orange;
 }
 
-.contact-info ul li a{
-  font-size:20px;
-  color:White;
-  margin:10px;
-  padding:5px;
-  background-color:Orange;
+/*contact image styles*/
+.c-img-container{
+  margin-bottom: 3em;
 }
-.contact-info ul li a:hover{
-  opacity:0.8;
+
+#img-email{
+  height: 3em;
+  width: 3em;
+  margin-right: 2em;
+}
+
+#img-facebook{
+  height: 3em;
+  width: 3em;
+  margin-right: 2em;
+}
+
+#img-whatsapp{
+  height: 3em;
+  width: 3em;
 }
