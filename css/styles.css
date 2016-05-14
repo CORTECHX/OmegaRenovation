@@ -113,7 +113,6 @@ body {
   color: orange;
 }
 
-
 .about .lead a:hover {
   color: white;
 }
@@ -133,12 +132,19 @@ footer p {
   font-family: organo;
   font-size: 1.5em;
   color: #666;
-  margin-left: 2em;
 }
 
 footer p span {
   float: right;
   padding-right: 1em;
+}
+
+footer r{
+  float:left;
+  font-family:ariel;
+  margin:0px;
+  padding:0px;
+  left:0px;
 }
 
 /*images on page- size, onhover etc*/
@@ -177,4 +183,29 @@ footer p span {
 .img-container a{
   color:#EA870C;
   font-size:25px;
+}
+
+.contact-info{
+  text-align:center;
+  color:White;
+  font-family:abeezee regular;
+  background-color: rgba(0,0,0,0.8);
+  margin-bottom: 6em;
+  display:block;
+}
+
+.contact-info h1{
+  font-family:organo;
+  color:Orange;
+}
+
+.contact-info ul li a{
+  font-size:20px;
+  color:White;
+  margin:10px;
+  padding:5px;
+  background-color:Orange;
+}
+.contact-info ul li a:hover{
+  opacity:0.8;
 }
