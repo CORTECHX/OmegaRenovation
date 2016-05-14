@@ -173,10 +173,6 @@ footer r{
 
 /*img hover animation styles*/
 .img-container img:hover{
-  -moz-animation:flip 1s;
-  -ms-animation:flip 1s;
-  -webkit-animation:flip 1s;
-  animation:flip 1s;
   -ms-transform:scale(1.4);
   -moz-transform:scale(1.4);
   -webkit-transform:scale(1.4);
