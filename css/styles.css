@@ -160,6 +160,7 @@ footer r{
   color:White;
   background-color: rgba(0,0,0,0.8);
   margin-bottom: 6em;
+  padding-bottom: 2em;
 }
 
 .img-container img{
@@ -189,7 +190,12 @@ footer r{
 
 .img-container a{
   color:#EA870C;
-  font-size:25px;
+  font-size:21px;
+  text-decoration: none;
+}
+
+.img-container a:hover{
+  color: white;
 }
 
 /*Contact info section*/
