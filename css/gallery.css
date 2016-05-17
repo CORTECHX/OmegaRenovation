@@ -9,10 +9,10 @@
 }
 
 /*Attemp to add custom color to the scrollbar --WEBKIT ONLY--*/
-::-webkit-scrollbar {color:black;background-color:black;} 
-::-webkit-scrollbar-button {color:#FF7500;background-color:#FF7500;} 
-::-webkit-scrollbar-track {color:black;background-color:black;} 
-::-webkit-scrollbar-track-piece {color:black;background-color:black;} 
+::-webkit-scrollbar {color:black;background-color:black;}
+::-webkit-scrollbar-button {color:#FF7500;background-color:#FF7500;}
+::-webkit-scrollbar-track {color:black;background-color:black;}
+::-webkit-scrollbar-track-piece {color:black;background-color:black;}
 ::-webkit-scrollbar-thumb {color:orange;background-color:orange;}
 
 /*body styles - background positioning*/
@@ -66,6 +66,7 @@ body {
   -moz-transition:1s ease-in-out;
   -webkit-transition:1s ease-in-out;
   transition:1s ease-in-out;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 /*img hover animation styles*/
