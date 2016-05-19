@@ -150,19 +150,10 @@ footer p span {
   padding-right: 1em;
 }
 
-text{
- margin-left:0px;
+footer p text {
+  padding-left: 3.5em;
 }
 
-footer a{
-  float:left;
-  font-family:ardestine;
-  text-decoration:none;
-  color:#33ccff;
-  margin:0px;
-  padding:0px;
-  left:0px;
-}
 
 /*images on page- size, onhover etc*/
 
@@ -233,6 +224,7 @@ footer a{
 #img-email{
   height: 3em;
   width: 3em;
+
 }
 
 #img-facebook{
@@ -244,4 +236,10 @@ footer a{
 #img-whatsapp{
   height: 3em;
   width: 3em;
+}
+
+#creator_content a{
+  font-family:ardestine;
+  text-decoration:none;
+  color:#33ccff;
 }
