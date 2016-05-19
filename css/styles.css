@@ -13,6 +13,11 @@
   src:url('../fonts/batik.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: ardestine;
+  src:url('../fonts/ARDESTINE.ttf') format('truetype');
+}
+
 /*custom color to the scrollbar --WEBKIT--*/
 ::-webkit-scrollbar {color:black;background-color:black;}
 ::-webkit-scrollbar-button {color:#FF7500;background-color:#FF7500;}
@@ -145,9 +150,15 @@ footer p span {
   padding-right: 1em;
 }
 
-footer r{
+text{
+ margin-left:0px; 
+}
+
+footer a{
   float:left;
-  font-family:ariel;
+  font-family:ardestine;
+  text-decoration:none;
+  color:#33ccff;
   margin:0px;
   padding:0px;
   left:0px;
