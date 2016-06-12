@@ -1,0 +1,106 @@
+@font-face {
+  font-family: organo;
+  src:url('../fonts/Organo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: abeezee regular;
+  src:url('../fonts/ABeeZee-Regular.ttf') format('truetype');
+}
+
+/*custom color to the scrollbar --WEBKIT--*/
+::-webkit-scrollbar {color:black;background-color:black;}
+::-webkit-scrollbar-button {color:#FF7500;background-color:#FF7500;}
+::-webkit-scrollbar-track {color:black;background-color:black;}
+::-webkit-scrollbar-track-piece {color:black;background-color:black;}
+::-webkit-scrollbar-thumb {color:orange;background-color:orange;}
+
+/*body styles - background positioning*/
+body {
+  padding-top: 60px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*seperate container for the logo*/
+.logo-div{
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/*contains the arrow*/
+.preface{
+  margin-top: 0px;
+  text-align: center;
+}
+
+/*semi-transparent navbar*/
+.navbar{
+  background-color:rgba(0, 0, 0, 0.8);
+}
+
+.navbar-brand{
+  font-family:organo;
+}
+
+/*color state for active navbar item*/
+.active-h{
+  background-color:#AF8809;
+}
+
+/*hover animation for menu item*/
+.nav li:hover{
+  background-color:#AC5D13;
+  -moz-animation:bounce 1s;
+  -ms-animation:bounce 1s;
+  -webkit-animation:bounce 1s;
+  animation:bounce 1s;
+}
+
+/*make the container extend to bottom of page*/
+.container{
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+
+.intro-div {
+  margin-bottom:50px;
+  padding:10px;
+  text-align:center;
+  font-family:organo;
+  font-size:20px;
+  color:White;
+}
+
+.mail{
+  margin:10px;
+  padding:10px;
+  text-align:center;
+  font-family:organo;
+  font-size:20px;
+  color:White;
+  background:rgba(0,0,0,0.6);
+}
+
+.field{
+  width:40%;
+  height:40px;
+  font-size:20px;
+  font-family:abeezee;
+  color:Black;
+}
+
+.send{
+  background:Orange;
+  color:White;
+  font-size:25px;
+  border-radius:15px;
+}
+
+.send:hover{
+  background:Darkorange;
+}
