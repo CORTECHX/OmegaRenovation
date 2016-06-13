@@ -5,10 +5,4 @@ function sendEmail() {
 
 	window.open("mailto:service@omegarenovation.ca?subject=" + subject +
 				"&body=" + body);
-
-	//window.setTimeout(
-		//function () {
-			//window.open("../index.html");
-		//}, 2000);
-
 }

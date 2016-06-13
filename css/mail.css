@@ -84,6 +84,7 @@ body {
   font-size:20px;
   color:White;
   background:rgba(0,0,0,0.6);
+  border-top:5px orange solid;
 }
 
 .field{
@@ -103,8 +104,11 @@ body {
   color:White;
   font-size:25px;
   border-radius:15px;
+  padding:10px;
+  text-decoration:none;
 }
 
 .send:hover{
   background:Darkorange;
+  text-decoration:none;
 }
