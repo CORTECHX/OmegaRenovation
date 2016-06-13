@@ -57,17 +57,17 @@
 
 	  <div class="mail">
 		
-		<form action="https://formspree.io/service@omegarenovation.ca" method="post">
-		  <p>From:</p>
-		  <input class="from field" type="email" name="email" placeholder="me@example.com"><br>
+		<form>
+		  <p>To:</p>
+		  <input class="to field" readonly="readonly" value="service@omegarenovation.ca"><br>
 		  
 		  <p>Subject:</p>
-		  <input class="subject field" name="_subject" placeholder="subject"><br>
+		  <input class="subject field" placeholder="subject"><br>
 		  
 		  <p>Body:</p>
-		  <textarea class="body" name="" placeholder="email body"></textarea><br>
+		  <textarea class="body" placeholder="email body"></textarea><br>
 		  
-		  <input class="send" value="SEND EMAIL" type="submit"/>
+		  <input onclick="sendEmail()" class="send" value="SEND EMAIL" type="submit"/>
 		</form>
 		
 	  </div>

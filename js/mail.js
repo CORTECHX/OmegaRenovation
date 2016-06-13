@@ -1,10 +1,14 @@
-function sendEmail(){
+function sendEmail() {
 
-var from=document.getElementsByClassName("from")[0].innerHTML;
-var subject=document.getElementsByClassName("subject")[0].innerHTML;
-var body=document.getElementsByClassName("body")[0].innerHTML;
+	var subject=document.getElementsByClassName("subject")[0].value;
+	var body=document.getElementsByClassName("body")[0].value;
 
-window.open("mailto:service@omegarenovation.ca?subject="+subject+
-"&body="+body);
+	window.open("mailto:service@omegarenovation.ca?subject=" + subject +
+				"&body=" + body);
+
+	//window.setTimeout(
+		//function () {
+			//window.open("../index.html");
+		//}, 2000);
 
 }
