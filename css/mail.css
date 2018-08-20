@@ -78,6 +78,8 @@ body {
   font-size:15px;
   color:White;
   background:rgba(0,0,0,0.6);
+  border-top:5px orange solid;
+  margin-bottom:40px;
 }
 
 .field{
@@ -97,8 +99,11 @@ body {
   color:White;
   font-size:25px;
   border-radius:15px;
+  padding:10px;
+  text-decoration:none;
 }
 
 .send:hover{
   background:Darkorange;
+  text-decoration:none;
 }
