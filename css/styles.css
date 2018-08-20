@@ -19,38 +19,30 @@
 }
 
 /*custom color to the scrollbar --WEBKIT--*/
+/*
 ::-webkit-scrollbar {color:black;background-color:black;}
 ::-webkit-scrollbar-button {color:#FF7500;background-color:#FF7500;}
 ::-webkit-scrollbar-track {color:black;background-color:black;}
 ::-webkit-scrollbar-track-piece {color:black;background-color:black;}
-::-webkit-scrollbar-thumb {color:orange;background-color:orange;}
+::-webkit-scrollbar-thumb {color:orange;background-color:orange;}*/
 
-/*body styles - background positioning*/
-body {
-  padding-top: 60px;
+body{background-color: black;}
+/*seperate container for the logo*/
+.logo-div{
+  background: url('../img/intro-bg.png');
+  text-align: center;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 650px;
 }
 
-/*seperate container for the logo*/
-.logo-div{
-  padding: 40px 15px;
-  text-align: center;
-}
-
-/*contains the arrow*/
-.preface{
-  margin-top: 0px;
-  text-align: center;
-}
-
-/*semi-transparent navbar*/
+/*navbar*/
 .navbar{
-  background-color:rgba(0, 0, 0, 0.8);
+  border: none;
 }
 
 .navbar-brand{
@@ -71,15 +63,10 @@ body {
   animation:bounce 1s;
 }
 
-/*make the container extend to bottom of page*/
-.container{
-  margin-bottom:0px;
-  padding-bottom:0px;
-}
-
 #logo{
-  width:580px;
-  height:280px;
+  margin-top: 10%;
+  width:400px;
+  height:200px;
 }
 
 /*introductory line*/
@@ -88,19 +75,20 @@ body {
   font-family:organo;
 }
 
-/*scroll arrow*/
-#arrow {
-  margin-top: 4em;
-}
-
 /*about section*/
 .about{
-  margin-top:15em;
   text-align:center;
   color:White;
-  background-color: black;
-  opacity: .8;
-  margin-bottom: 6em;
+  margin-bottom: 10px;
+  border-top: 20px white solid;
+  background: url('../img/bg2.jpg');
+  text-align: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*about section header*/
@@ -130,18 +118,14 @@ body {
 
 /*footer styles*/
 footer {
-  background-color:rgba(0, 0, 0, 0.8);
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  width:100%;
-  position: fixed;
+  background-color:black;
+  margin: 0px;
 }
 
 footer p {
   text-align: center;
   font-family: organo;
-  font-size: 1.5em;
+  font-size: 15px;
   color: #666;
 }
 
@@ -154,15 +138,22 @@ footer p text {
   padding-left: 3.5em;
 }
 
-
 /*images on page- size, onhover etc*/
-
 .img-container{
   text-align:center;
   color:White;
-  background-color: rgba(0,0,0,0.8);
-  margin-bottom: 6em;
-  padding-bottom: 2em;
+  /*background-color: #3d3d3d;*/
+  border-top: 20px white solid;
+  margin-bottom: 50px;
+  border-bottom: 25px solid white;
+  background: url('../img/bg3.jpg');
+  text-align: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .img-container img{
@@ -171,14 +162,15 @@ footer p text {
   -moz-transition:1s ease-in-out;
   -webkit-transition:1s ease-in-out;
   transition:1s ease-in-out;
+  border-color: orange;
 }
 
 /*img hover animation styles*/
 .img-container img:hover{
-  -ms-transform:scale(1.4);
-  -moz-transform:scale(1.4);
-  -webkit-transform:scale(1.4);
-  transform:scale(1.4);
+  -ms-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1);
 }
 
 .img-container h1{
@@ -199,24 +191,18 @@ footer p text {
 }
 
 /*Contact info section*/
-
 .contact-info{
   text-align:center;
   color:White;
   font-family:abeezee regular;
-  background-color: rgba(0,0,0,0.8);
-  margin-bottom: 6em;
-  display:block;
+  background-color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .contact-info h1{
-  font-family:organo;
+  font-family:batik;
   color:Orange;
-}
-
-/*contact image styles*/
-.c-img-container{
-  margin-bottom: 3em;
 }
 
 .c-img-container a:hover{
@@ -224,19 +210,18 @@ footer p text {
 }
 
 #img-email{
-  height: 3em;
-  width: 3em;
-
+  height: 30px;
+  width: 30px;
 }
 
 #img-facebook{
-  height: 3em;
-  width: 3em;
+  height: 30px;
+  width: 30px;
   margin-right: 2em;
 }
 
 #creator_content a{
   font-family:ardestine;
   text-decoration:none;
-  color:#33ccff;
+  color: orange;
 }

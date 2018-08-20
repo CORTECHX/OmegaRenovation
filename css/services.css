@@ -8,16 +8,9 @@
   src:url('../fonts/batik.ttf') format('truetype');
 }
 
-/*Attemp to add custom color to the scrollbar --WEBKIT ONLY--*/
-::-webkit-scrollbar {color:black;background-color:black;}
-::-webkit-scrollbar-button {color:#FF7500;background-color:#FF7500;}
-::-webkit-scrollbar-track {color:black;background-color:black;}
-::-webkit-scrollbar-track-piece {color:black;background-color:black;}
-::-webkit-scrollbar-thumb {color:orange;background-color:orange;}
-
 /*body styles - background positioning*/
 body {
-  padding-top: 60px;
+  padding-top: 80px;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
@@ -49,16 +42,11 @@ body {
   animation:bounce 1s;
 }
 
-/*make the container extend to bottom of window*/
-.container{
-  margin-bottom:0px;
-  padding-bottom:0px;
-}
-
 /*container for introductory text*/
 .intro-div{
   padding: 40px 15px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 /*title styling*/
@@ -67,59 +55,28 @@ body {
   font-family:organo;
 }
 
-/*delay animations on icons*/
-#icon1{
-  -webkit-animation-delay:.2s;
-  -moz-animation-delay:.2s;
-  -ms-animation-delay:.2s;
-  animation-delay:.2s;
-}
-#icon2{
-  -webkit-animation-delay:.4s;
-  -moz-animation-delay:.4s;
-  -ms-animation-delay:.4s;
-  animation-delay:.4s;
-}
-#icon3{
-  -webkit-animation-delay:.6s;
-  -moz-animation-delay:.6s;
-  -ms-animation-delay:.6s;
-  animation-delay:.6s;
-}
-#icon4{
-  -webkit-animation-delay:.8s;
-  -moz-animation-delay:.8s;
-  -ms-animation-delay:.8s;
-  animation-delay:.8s;
-}
-#icon5{
-  -webkit-animation-delay:1s;
-  -moz-animation-delay:1s;
-  -ms-animation-delay:1s;
-  animation-delay:1s;
-}
-#icon6{
-  -webkit-animation-delay:1.2s;
-  -moz-animation-delay:1.2s;
-  -ms-animation-delay:1.2s;
-  animation-delay:1.2s;
-}
-
 /*styling for each service listed*/
 .service{
-  background-color:rgba(0,0,0,0.6);
   text-align:center;
   color:Wheat;
-  padding-left:5px;
+  padding: 5px;
+  margin-bottom: 30px;
+
+  background: url('../img/bg4.jpg');
+  text-align: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*name header of service*/
 .service-name{
-  text-align:left;
   font-family:batik;
 }
 
 .service .lead{
-  text-align:right;
   padding-right:10px;
 }
