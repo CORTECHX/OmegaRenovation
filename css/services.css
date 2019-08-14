@@ -3,25 +3,13 @@
   src:url('../fonts/Organo.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: batik;
-  src:url('../fonts/batik.ttf') format('truetype');
-}
-
-/*body styles - background positioning*/
-body {
-  padding-top: 80px;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+html, body{
+  height: 100% !important;
 }
 
 /*semi-transparent navbar*/
 .navbar{
-  background-color:rgba(0, 0, 0, 0.8);
+  background:#fff;
 }
 
 .navbar-brand{
@@ -44,39 +32,45 @@ body {
 
 /*container for introductory text*/
 .intro-div{
-  padding: 40px 15px;
+  height: 100%;
+  padding-top: 160px;
   text-align: center;
-  margin-bottom: 50px;
+  background: url('../img/head_bg2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 /*title styling*/
 #intro{
-  color:White;
+  color:black;
   font-family:organo;
+}
+
+#container{
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  padding: 0px;
 }
 
 /*styling for each service listed*/
 .service{
   text-align:center;
-  color:Wheat;
-  padding: 5px;
-  margin-bottom: 30px;
-
-  background: url('../img/bg4.jpg');
-  text-align: center;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  color:black;
+  background: white;
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 450px;
+  height: 450px;
+  display: inline-block;
 }
 
 /*name header of service*/
 .service-name{
-  font-family:batik;
+  font-family:organo;
 }
 
-.service .lead{
-  padding-right:10px;
-}

@@ -38,9 +38,9 @@
 		<!--navbar menu items-->
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li><a href="index.html" style="color:white">Home</a></li>
-            <li class="active-h"><a href="#" style="color:white">Services</a></li>
-            <li><a href="index.html#contact" style="color:white">Contact</a></li>
+            <li><a href="index.html" style="color:black">Home</a></li>
+            <li class="active-h"><a href="#" style="color:black">Services</a></li>
+            <li><a href="index.html#contact" style="color:black">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -58,14 +58,15 @@
   		<img onclick="scrollTo('#floor')" width="80px" height="80px" src="img/Ic_service6.png">
 
   		  <!--intro text-->
-  		<h2 id="intro">Services offered by <font size="30px" color="darkorange">Ω</font>mega Renovation:</h2>
-  		<h3 style="color:orange; font-size:26px;" class="lead">We offer quite a number of services such as flooring, framing, demolition etc.</h3>
+  		<h2 id="intro">Services offered by <span style="font-size: 30px;color:darkorange;">Ω</span>mega Renovation:</h2>
+  		<h3 style="color:rgb(255, 115, 0); font-size:26px;" class="lead">We offer quite a number of services such as flooring, framing, demolition etc.</h3>
     </div>
 
+	<div id="container">
 	  <!--demolition service-->
 	  <div id="demo" class="demolition-service service">
   		<!--title-->
-  		<h1 class="service-name">Demolition</h1>
+  		<h2 class="service-name">Demolition</h2>
   		<!--representative image-->
   		<img style="border:4px orange solid;" width="400px" height="200px" src="img/img33.jpg">
   		<!--info pertaining to service-->
@@ -75,7 +76,7 @@
 	  <!--framing service-->
 	  <div id="frame" class="framing-service service">
   		<!--title-->
-  		<h1 class="service-name">Framing</h1>
+  		<h2 class="service-name">Framing</h2>
   		<!--representative image-->
   		<img style="border:4px orange solid;" width="400px" height="200px" src="img/img22.jpg">
   		<!--info pertaining to service-->
@@ -88,7 +89,7 @@
 	  <!--insulation & vapour barrier service-->
 	  <div id="vape" class="insulation-service service">
   		<!--title-->
-  		<h1 class="service-name">Insulation & vapour barriers</h1>
+  		<h2 class="service-name">Insulation & vapour barriers</h2>
   		<!--representative image-->
   		<img style="border:4px orange solid;" width="400px" height="200px" src="img/img32.jpg">
   		<!--info pertaining to service-->
@@ -100,7 +101,7 @@
 	  <!--dry wall & plastering service-->
 	  <div id="dry" class="drywall-service service">
   		<!--title-->
-  		<h1 class="service-name">Drywall & plastering</h1>
+  		<h2 class="service-name">Drywall & plastering</h2>
   		<!--representative image-->
   		<img style="border:4px orange solid;" width="400px" height="200px" src="img/img29.jpg">
   		<!--info pertaining to service-->
@@ -111,7 +112,7 @@
 	  <!--paint service-->
 	  <div id="paint" class="paint-service service">
   		<!--title-->
-  		<h1 class="service-name">Painting</h1>
+  		<h2 class="service-name">Painting</h2>
   		<!--representative image-->
   		<img style="border:4px orange solid;" width="400px" height="200px" src="img/img13.jpg">
   		<!--info pertaining to service-->
@@ -123,7 +124,7 @@
 	  <!--flooring & trims service-->
 	  <div id="floor" class="flooring-service service">
   		<!--title-->
-  		<h1 class="service-name">Flooring & trims</h1>
+  		<h2 class="service-name">Flooring & trims</h2>
   		<!--representative image-->
   		<img style="border:4px orange solid;" width="400px" height="200px" src="img/img7.jpg">
   		<!--info pertaining to service-->
@@ -131,15 +132,16 @@
   		  * Variety of baseboards<br>
   		  * quarter round and casings</p>
 	  </div>
+	</div>
 
-
-	<script src="js/index.js"></script>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+	  <script type="text/js">
+		function scrollTo(id) {
+		  $('html, body').animate({ 
+						scrollTop: $(id).offset().top
+					  }, 'slow');
+		}
+	  </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
