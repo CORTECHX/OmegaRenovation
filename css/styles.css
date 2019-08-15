@@ -29,10 +29,6 @@ html, body{
 /*hover animation for menu item*/
 .nav li:hover{
   background-color:#AC5D13;
-  -moz-animation:bounce 1s;
-  -ms-animation:bounce 1s;
-  -webkit-animation:bounce 1s;
-  animation:bounce 1s;
 }
 
 /*seperate container for the logo*/
