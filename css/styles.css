@@ -1,9 +1,10 @@
 @font-face {
   font-family: organo;
-  src:url('../fonts/Organo.ttf') format('truetype');
+  src: url("../fonts/Organo.ttf") format("truetype");
 }
 
-html, body{
+html,
+body {
   font-family: Arial, Helvetica, sans-serif;
   margin: auto;
   width: 100%;
@@ -13,27 +14,26 @@ html, body{
 }
 
 /*navbar*/
-.navbar{
+.navbar {
   color: rgb(0, 0, 0);
   background: #fff;
-  font-family:organo;
+  font-family: organo;
 }
 
-
 /*color state for active navbar item*/
-.active-h{
-  background-color:#AC5D13;
+.active-h {
+  background-color: #ac5d13;
   color: #fff;
 }
 
 /*hover animation for menu item*/
-.nav li:hover{
-  background-color:#AC5D13;
+.nav li:hover {
+  background-color: #ac5d13;
 }
 
 /*seperate container for the logo*/
-.logo-div{
-  background: url('../img/head_bg2.jpg');
+.logo-div {
+  background: url("../img/head_bg2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -43,18 +43,18 @@ html, body{
   width: 100%;
   min-height: 100% !important;
   height: 100%;
-  font-family:organo;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
-#logo{
+#logo {
   margin-top: 100px;
-  width:400px;
-  height:200px;
+  width: 400px;
+  height: 200px;
 }
 
 /*about section*/
-.about{
-  text-align:center;
+.about {
+  text-align: center;
   background: white;
   box-shadow: 0px 0px 10px #000;
   border-radius: 10px;
@@ -63,8 +63,8 @@ html, body{
 }
 
 /*about section header*/
-.about h1{
-  color:#EA870C;
+.about h1 {
+  color: #ea870c;
   padding-top: 1em;
   font-family: organo;
 }
@@ -72,16 +72,16 @@ html, body{
 /*.about link to services*/
 .about .lead a {
   text-decoration: none;
-  color: #EA870C;
+  color: #ea870c;
 }
 .about .lead a:hover {
   color: rgb(255, 94, 0);
 }
 
 /*images on page- size, onhover etc*/
-.img-container{
-  text-align:center;
-  color:black;
+.img-container {
+  text-align: center;
+  color: black;
   background: white;
   box-shadow: 0px 0px 10px #000;
   border-radius: 10px;
@@ -89,32 +89,32 @@ html, body{
   margin: 10px;
 }
 
-.img-container img{
-  margin:10px;
+.img-container img {
+  margin: 10px;
   border: 2px solid rgb(255, 115, 0);
 }
 
-.img-container h1{
-  color:#EA870C;
+.img-container h1 {
+  color: #ea870c;
   padding-top: 1em;
   padding-bottom: 1em;
   font-family: organo;
 }
 
-.img-container a{
-  color:#EA870C;
-  font-size:21px;
+.img-container a {
+  color: #ea870c;
+  font-size: 21px;
   text-decoration: none;
 }
 
-.img-container a:hover{
+.img-container a:hover {
   color: rgb(255, 60, 0);
 }
 
 /*Contact info section*/
-.contact-info{
-  text-align:center;
-  color:White;
+.contact-info {
+  text-align: center;
+  color: White;
   background-color: black;
   box-shadow: 0px 0px 10px #000;
   border-radius: 10px;
@@ -123,16 +123,16 @@ html, body{
   padding-bottom: 40px;
 }
 
-.contact-info h1{
-  color:Orange;
+.contact-info h1 {
+  color: Orange;
 }
 
-#img-email{
+#img-email {
   height: 30px;
   width: 30px;
 }
 
-#img-facebook{
+#img-facebook {
   height: 30px;
   width: 30px;
   margin-right: 2em;
