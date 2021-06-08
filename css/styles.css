@@ -1,11 +1,11 @@
 @font-face {
-  font-family: organo;
-  src: url("../fonts/Organo.ttf") format("truetype");
+  font-family: Electra;
+  src: url("../fonts/ElectraLTStd-Regular.otf") format("truetype");
 }
 
 html,
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Electra;
   margin: auto;
   width: 100%;
   min-height: 100% !important;
